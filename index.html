@@ -91,143 +91,143 @@
 
     const questions = [
       {question:"ما القيمة المنزلية للرقم ٧ في العدد ٣٧،٥٢١،٩٠٤؟",choices:[
-        {text:"٧٠٠٠٠٠٠",correct:true},{text:"٧٠٠٠٠٠",correct:false},{text:"٧٠٠٠",correct:false},{text:"٧",correct:false}
-      ],explain:"٣٧٥٢١٩٠٤ = ٣٧ مليونًا ... والرقم ٧ في منزلة الملايين وقيمته ٧٠٠٠٠٠٠."},
+        {text:"٧،٠٠٠،٠٠٠",correct:true},{text:"٧٠٠،٠٠٠",correct:false},{text:"٧،٠٠٠",correct:false},{text:"٧",correct:false}
+      ],explain:"٣٧،٥٢١،٩٠٤ = ٣٧ مليونًا ... والرقم ٧ في منزلة الملايين وقيمته ٧،٠٠٠،٠٠٠."},
 
-      {question:"ما قيمة الرقم ٩ في العدد ٨١٩٣٠٤٢٢؟",choices:[
-        {text:"٩٠٠٠٠٠",correct:true},{text:"٩٠٠٠٠٠٠",correct:false},{text:"٩٠٠٠",correct:false},{text:"٩٠",correct:false}
-      ],explain:"٨١٩٣٠٤٢٢: الرقم ٩ في منزلة مئات الألوف ⇒ قيمته ٩٠٠٠٠٠."},
+      {question:"ما قيمة الرقم ٩ في العدد ٨١،٩٣٠،٤٢٢؟",choices:[
+        {text:"٩٠٠،٠٠٠",correct:true},{text:"٩،٠٠٠،٠٠٠",correct:false},{text:"٩،٠٠٠",correct:false},{text:"٩٠",correct:false}
+      ],explain:"٨١،٩٣٠،٤٢٢: الرقم ٩ في منزلة مئات الألوف ⇒ قيمته ٩٠٠،٠٠٠."},
 
-      {question:"أيُّ قراءةٍ صحيحة للعدد ٢٣٥٧٠١٤٩؟",choices:[
+      {question:"أيُّ قراءةٍ صحيحة للعدد ٢٣،٥٧٠،١٤٩؟",choices:[
         {text:"ثلاثة وعشرون مليونًا وخمسمئة وسبعون ألفًا ومئة وتسعة وأربعون",correct:true},
         {text:"ثلاثة وعشرون ألفًا وخمسمئة وسبعون مليونًا ومئة وتسعة وأربعون",correct:false},
         {text:"مئتان وخمسة وثلاثون مليونًا وسبعمئة وأربعة عشر ألفًا وتسعة",correct:false},
         {text:"ثلاثة وعشرون مليونًا وخمسمئة وسبعة آلاف ومئة وتسعة وأربعون",correct:false}
-      ],explain:"٢٣٥٧٠١٤٩ = ٢٣ مليونًا + ٥٧٠ ألفًا + ١٤٩."},
+      ],explain:"٢٣،٥٧٠،١٤٩ = ٢٣ مليونًا + ٥٧٠ ألفًا + ١٤٩."},
 
-      {question:"أي تمثيل تحليلي صحيح للعدد ٤٠٦٠٣٠٠٥؟",choices:[
-        {text:"٤٠٠٠٠٠٠٠ + ٦٠٠٠٠٠ + ٣٠٠٠ + ٥",correct:true},
-        {text:"٤٠٠٠٠٠٠ + ٦٠٠٠٠٠ + ٣٠٠ + ٥",correct:false},
-        {text:"٤٠٠٠٠٠٠٠ + ٦٠٠٠٠ + ٣٠٠٠ + ٥",correct:false},
-        {text:"٤٠٠٠٠٠٠٠ + ٦٠٠٠٠٠ + ٣٠ + ٥",correct:false}
-      ],explain:"٤٠٦٠٣٠٠٥ = ٤٠٬٠٠٠٬٠٠٠ + ٦٠٠٬٠٠٠ + ٣٬٠٠٠ + ٥."},
+      {question:"أي تمثيل تحليلي صحيح للعدد ٤٠،٦٠٣،٠٠٥؟",choices:[
+        {text:"٤٠،٠٠٠،٠٠٠ + ٦٠٠،٠٠٠ + ٣،٠٠٠ + ٥",correct:true},
+        {text:"٤،٠٠٠،٠٠٠ + ٦٠٠،٠٠٠ + ٣٠٠ + ٥",correct:false},
+        {text:"٤٠،٠٠٠،٠٠٠ + ٦٠،٠٠٠ + ٣،٠٠٠ + ٥",correct:false},
+        {text:"٤٠،٠٠٠،٠٠٠ + ٦٠٠،٠٠٠ + ٣٠ + ٥",correct:false}
+      ],explain:"٤٠،٦٠٣،٠٠٥ = ٤٠٬٠٠٠٬٠٠٠ + ٦٠٠٬٠٠٠ + ٣٬٠٠٠ + ٥."},
 
       {question:"أي عدد يساوي: ٩ مئات الملايين و٢ عشرات الملايين و٣ ملايين و٤ مئات و٥ عشرات و٦ آحاد؟",choices:[
-        {text:"٩٢٣٠٠٠٤٥٦",correct:true},{text:"٩٢٣٠٤٥٦٠٠",correct:false},{text:"٩٢٠٣٠٠٤٥٦",correct:false},{text:"٩٢٣٤٥٦٠٠٠",correct:false}
-      ],explain:"٩٠٠٬٠٠٠٬٠٠٠ + ٢٠٬٠٠٠٬٠٠٠ + ٣٬٠٠٠٬٠٠٠ + ٤٠٠ + ٥٠ + ٦ = ٩٢٣٠٠٠٤٥٦."},
+        {text:"٩٢٣،٠٠٠،٤٥٦",correct:true},{text:"٩٢٣،٠٤٥،٦٠٠",correct:false},{text:"٩٢٠،٣٠٠،٤٥٦",correct:false},{text:"٩٢٣،٤٥٦،٠٠٠",correct:false}
+      ],explain:"٩٠٠،٠٠٠،٠٠٠ + ٢٠،٠٠٠،٠٠٠ + ٣،٠٠٠،٠٠٠ + ٤٠٠ + ٥٠ + ٦ = ٩٢٣،٠٠٠،٤٥٦."},
 
-      {question:"في أي منزلة يقع الرقم ٢ في العدد ٧٤٢١٥٠٣٦؟",choices:[
+      {question:"في أي منزلة يقع الرقم ٢ في العدد ٧٤،٢١٥،٠٣٦؟",choices:[
         {text:"مئات الألوف",correct:true},{text:"عشرات الملايين",correct:false},{text:"الملايين",correct:false},{text:"الآحاد",correct:false}
-      ],explain:"٧٤٢١٥٠٣٦: الرقم ٢ في منزلة مئات الألوف."},
+      ],explain:"٧٤،٢١٥،٠٣٦: الرقم ٢ في منزلة مئات الألوف."},
 
-      {question:"أيُّ العددين أكبر: ٦٩٨٣٠٢٤٥ أم ٦٩٨٣٢٠٤٥؟",choices:[
-        {text:"٦٩٨٣٢٠٤٥",correct:true},{text:"٦٩٨٣٠٢٤٥",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن المقارنة",correct:false}
+      {question:"أيُّ العددين أكبر: ٦٩،٨٣٠،٢٤٥ أم ٦٩،٨٣٢،٠٤٥؟",choices:[
+        {text:"٦٩،٨٣٢،٠٤٥",correct:true},{text:"٦٩،٨٣٠،٢٤٥",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن المقارنة",correct:false}
       ],explain:"نقارن من اليسار: يتساوى حتى الآلاف، ثم ٣٢ ألفًا > ٣٠ ألفًا."},
 
-      {question:"الصيغة التحليلية الصحيحة للعدد ٩٠١٢٠٠٣٠؟",choices:[
-        {text:"٩٠٠٠٠٠٠٠ + ١٢٠٠٠٠ + ٣٠",correct:true},
-        {text:"٩٠٠٠٠٠٠٠ + ١٢٠٠٠ + ٣٠",correct:false},
-        {text:"٩٠٠٠٠٠٠ + ١٢٠٠٠٠ + ٣٠",correct:false},
-        {text:"٩٠٠٠٠٠٠٠ + ١٢٠٠٠٠ + ٣",correct:false}
-      ],explain:"٩٠١٢٠٠٣٠ = ٩٠٬٠٠٠٬٠٠٠ + ١٢٠٬٠٠٠ + ٣٠."},
+      {question:"الصيغة التحليلية الصحيحة للعدد ٩٠،١٢٠،٠٣٠؟",choices:[
+        {text:"٩٠،٠٠٠،٠٠٠ + ١٢٠،٠٠٠ + ٣٠",correct:true},
+        {text:"٩٠،٠٠٠،٠٠٠ + ١٢،٠٠٠ + ٣٠",correct:false},
+        {text:"٩،٠٠٠،٠٠٠ + ١٢٠،٠٠٠ + ٣٠",correct:false},
+        {text:"٩٠،٠٠٠،٠٠٠ + ١٢٠،٠٠٠ + ٣",correct:false}
+      ],explain:"٩٠،١٢٠،٠٣٠ = ٩٠،٠٠٠،٠٠٠ + ١٢٠،٠٠٠ + ٣٠."},
 
-      {question:"ما الرقم في منزلة عشرات الملايين في العدد ٥٦٧٨٩٠١٢؟",choices:[
+      {question:"ما الرقم في منزلة عشرات الملايين في العدد ٥٦،٧٨٩،٠١٢؟",choices:[
         {text:"٥",correct:true},{text:"٦",correct:false},{text:"٧",correct:false},{text:"٢",correct:false}
-      ],explain:"٥٦٧٨٩٠١٢: أول خانة من اليسار (لعَدَد من ٨ خانات) هي عشرات الملايين = ٥."},
+      ],explain:"٥٦،٧٨٩،٠١٢: أول خانة من اليسار (لعَدَد من ٨ خانات) هي عشرات الملايين = ٥."},
 
-      {question:"ما القيمة المنزلية للرقم ٤ في العدد ٣٤٢٠٠١٠٥؟",choices:[
-        {text:"٤٠٠٠٠٠٠",correct:true},{text:"٤٠٠٠٠٠",correct:false},{text:"٤٠٠٠",correct:false},{text:"٤",correct:false}
-      ],explain:"٣٤٢٠٠١٠٥: الرقم ٤ في منزلة الملايين ⇒ ٤٬٠٠٠٬٠٠٠."},
+      {question:"ما القيمة المنزلية للرقم ٤ في العدد ٣٤،٢٠٠،١٠٥؟",choices:[
+        {text:"٤،٠٠٠،٠٠٠",correct:true},{text:"٤٠٠،٠٠٠",correct:false},{text:"٤،٠٠٠",correct:false},{text:"٤",correct:false}
+      ],explain:"٣٤،٢٠٠،١٠٥: الرقم ٤ في منزلة الملايين ⇒ ٤،٠٠٠،٠٠٠."},
 
       {question:"أي عدد يساوي: ١٢٣ مليونًا و٤٥٦ ألفًا و٧٠؟",choices:[
-        {text:"١٢٣٤٥٦٠٧٠",correct:true},{text:"١٢٣٤٥٦٧٠٠",correct:false},{text:"١٢٣٤٥٦٠٠٧",correct:false},{text:"١٢٣٤٠٥٦٧٠",correct:false}
-      ],explain:"١٢٣٬٠٠٠٬٠٠٠ + ٤٥٦٬٠٠٠ + ٧٠ = ١٢٣٤٥٦٠٧٠."},
+        {text:"١٢٣،٤٥٦،٠٧٠",correct:true},{text:"١٢٣،٤٥٦،٧٠٠",correct:false},{text:"١٢٣،٤٥٦،٠٠٧",correct:false},{text:"١٢٣،٤٠٥،٦٧٠",correct:false}
+      ],explain:"١٢٣،٠٠٠،٠٠٠ + ٤٥٦،٠٠٠ + ٧٠ = ١٢٣،٤٥٦،٠٧٠."},
 
-      {question:"أي قراءة صحيحة للعدد ٧٠٠٠٠٥٠٠٨؟",choices:[
+      {question:"أي قراءة صحيحة للعدد ٧٠٠،٠٠٥،٠٠٨؟",choices:[
         {text:"سبعمئة مليون وخمسة آلاف وثمانية",correct:true},
         {text:"سبعمئة ألف وخمسة ملايين وثمانية",correct:false},
         {text:"سبعمئة مليون وخمسمئة وثمانية",correct:false},
         {text:"سبعون مليونًا وخمسة آلاف وثمانية",correct:false}
-      ],explain:"٧٠٠٠٠٥٠٠٨ = ٧٠٠٬٠٠٠٬٠٠٠ + ٥٬٠٠٠ + ٨."},
+      ],explain:"٧٠٠،٠٠٥،٠٠٨ = ٧٠٠،٠٠٠،٠٠٠ + ٥،٠٠٠ + ٨."},
 
-      {question:"في أي منزلة يقع الرقم ٥ في العدد ٩٥٤٣٢٠١٦؟",choices:[
+      {question:"في أي منزلة يقع الرقم ٥ في العدد ٩٥،٤٣٢،٠١٦؟",choices:[
         {text:"الملايين",correct:true},{text:"مئات الألوف",correct:false},{text:"عشرات الألوف",correct:false},{text:"العشرات",correct:false}
-      ],explain:"٩٥٤٣٢٠١٦: الرقم ٥ في منزلة الملايين."},
+      ],explain:"٩٥،٤٣٢،٠١٦: الرقم ٥ في منزلة الملايين."},
 
-      {question:"ما الرقم في منزلة مئات الألوف في العدد ٢٤٨٩٠٧٣١؟",choices:[
+      {question:"ما الرقم في منزلة مئات الألوف في العدد ٢٤،٨٩٠،٧٣١؟",choices:[
         {text:"٨",correct:true},{text:"٤",correct:false},{text:"٩",correct:false},{text:"٧",correct:false}
-      ],explain:"٢٤٨٩٠٧٣١: ثلاثي الآلاف هو ٩٠٧؛ مئات الألوف رقمه ٨."},
+      ],explain:"٢٤،٨٩٠،٧٣١: ثلاثي الآلاف هو ٩٠٧؛ مئات الألوف رقمه ٨."},
 
-      {question:"أي تمثيل تحليلي صحيح للعدد ٣٠٠٤٠٠٠٠٩؟",choices:[
-        {text:"٣٠٠٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ٩",correct:true},
-        {text:"٣٠٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ٩",correct:false},
-        {text:"٣٠٠٠٠٠٠٠٠ + ٤٠٠٠٠ + ٩",correct:false},
-        {text:"٣٠٠٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ٩٠",correct:false}
-      ],explain:"٣٠٠٬٤٠٠٬٠٠٩ = ٣٠٠٬٠٠٠٬٠٠٠ + ٤٠٠٬٠٠٠ + ٩."},
+      {question:"أي تمثيل تحليلي صحيح للعدد ٣٠٠،٤٠٠،٠٠٩؟",choices:[
+        {text:"٣٠٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ٩",correct:true},
+        {text:"٣٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ٩",correct:false},
+        {text:"٣٠٠،٠٠٠،٠٠٠ + ٤٠،٠٠٠ + ٩",correct:false},
+        {text:"٣٠٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ٩٠",correct:false}
+      ],explain:"٣٠٠،٤٠٠،٠٠٩ = ٣٠٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ٩."},
 
-      {question:"أيهما أصغر: ٤٥٠٠١٢٠٠ أم ٤٥٠٠٢٠١٢؟",choices:[
-        {text:"٤٥٠٠١٢٠٠",correct:true},{text:"٤٥٠٠٢٠١٢",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن التحديد",correct:false}
-      ],explain:"٤٥٬٠٠١٬٢٠٠ < ٤٥٬٠٠٢٬٠١٢."},
+      {question:"أيهما أصغر: ٤٥،٠٠١،٢٠٠ أم ٤٥،٠٠٢،٠١٢؟",choices:[
+        {text:"٤٥،٠٠١،٢٠٠",correct:true},{text:"٤٥،٠٠٢،٠١٢",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن التحديد",correct:false}
+      ],explain:"٤٥،٠٠١،٢٠٠ < ٤٥،٠٠٢،٠١٢."},
 
-      {question:"أي قراءة صحيحة للعدد ١٠٢٠٠٠٠٠٠؟",choices:[
+      {question:"أي قراءة صحيحة للعدد ١٠٢،٠٠٠،٠٠٠؟",choices:[
         {text:"مئة واثنان مليونًا",correct:true},
         {text:"مليون ومئتان ألف",correct:false},
         {text:"اثنا عشر مليونًا",correct:false},
         {text:"مئة وعشرون مليونًا",correct:false}
-      ],explain:"١٠٢٬٠٠٠٬٠٠٠ = ١٠٠ مليون + ٢ مليون."},
+      ],explain:"١٠٢،٠٠٠،٠٠٠ = ١٠٠ مليون + ٢ مليون."},
 
-      {question:"ما الرقم في منزلة الآحاد في العدد ٨٣٠٠٠٠٠١؟",choices:[
+      {question:"ما الرقم في منزلة الآحاد في العدد ٨٣،٠٠٠،٠٠١؟",choices:[
         {text:"١",correct:true},{text:"٠",correct:false},{text:"٨",correct:false},{text:"٣",correct:false}
       ],explain:"الآحاد هو آخر رقم يمينًا: ١."},
 
-      {question:"ما القيمة المنزلية للرقم ٦ في العدد ٧٦٥٤٣٢١٠؟",choices:[
-        {text:"٦٠٠٠٠٠٠",correct:true},{text:"٦٠٠٠٠",correct:false},{text:"٦٠٠",correct:false},{text:"٦",correct:false}
-      ],explain:"٧٦٥٤٣٢١٠: الرقم ٦ في منزلة الملايين ⇒ ٦٬٠٠٠٬٠٠٠."},
+      {question:"ما القيمة المنزلية للرقم ٦ في العدد ٧٦،٥٤٣،٢١٠؟",choices:[
+        {text:"٦،٠٠٠،٠٠٠",correct:true},{text:"٦٠،٠٠٠",correct:false},{text:"٦٠٠",correct:false},{text:"٦",correct:false}
+      ],explain:"٧٦،٥٤٣،٢١٠: الرقم ٦ في منزلة الملايين ⇒ ٦،٠٠٠،٠٠٠."},
 
       {question:"أي عدد يمثّل: ٨ مئات الملايين و٠ ملايين و٤ مئات الألوف و٣ آلاف و٢ عشرات؟",choices:[
-        {text:"٨٠٠٤٠٣٠٢٠",correct:true},{text:"٨٠٤٠٠٣٠٢٠",correct:false},{text:"٨٠٠٤٣٠٠٢٠",correct:false},{text:"٨٠٠٠٤٣٢٠٠",correct:false}
-      ],explain:"٨٠٠٬٠٠٠٬٠٠٠ + ٤٠٠٬٠٠٠ + ٣٬٠٠٠ + ٢٠ = ٨٠٠٤٠٣٠٢٠."},
+        {text:"٨٠٠،٤٠٣،٠٢٠",correct:true},{text:"٨٠٤،٠٠٣،٠٢٠",correct:false},{text:"٨٠٠،٤٣٠،٠٢٠",correct:false},{text:"٨٠٠،٠٤٣،٢٠٠",correct:false}
+      ],explain:"٨٠٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ٣،٠٠٠ + ٢٠ = ٨٠٠،٤٠٣،٠٢٠."},
 
-      {question:"الصيغة التحليلية الصحيحة للعدد ٥٧٠٠٨٠٠٠٠؟",choices:[
-        {text:"٥٠٠٠٠٠٠٠٠ + ٧٠٠٠٠٠٠٠ + ٨٠٠٠٠",correct:true},
-        {text:"٥٠٠٠٠٠٠٠٠ + ٧٠٠٠٠٠٠ + ٨٠٠٠٠٠",correct:false},
-        {text:"٥٠٠٠٠٠٠٠ + ٧٠٠٠٠٠٠٠ + ٨٠٠٠٠",correct:false},
-        {text:"٥٠٠٠٠٠٠٠٠ + ٧٠٠٠٠٠٠٠ + ٨٠٠",correct:false}
-      ],explain:"٥٧٠٬٠٨٠٬٠٠٠ = ٥٠٠٬٠٠٠٬٠٠٠ + ٧٠٬٠٠٠٬٠٠٠ + ٨٠٬٠٠٠."},
+      {question:"الصيغة التحليلية الصحيحة للعدد ٥٧٠،٠٨٠،٠٠٠؟",choices:[
+        {text:"٥٠٠،٠٠٠،٠٠٠ + ٧٠،٠٠٠،٠٠٠ + ٨٠،٠٠٠",correct:true},
+        {text:"٥٠٠،٠٠٠،٠٠٠ + ٧،٠٠٠،٠٠٠ + ٨٠٠،٠٠٠",correct:false},
+        {text:"٥٠،٠٠٠،٠٠٠ + ٧٠،٠٠٠،٠٠٠ + ٨٠،٠٠٠",correct:false},
+        {text:"٥٠٠،٠٠٠،٠٠٠ + ٧٠،٠٠٠،٠٠٠ + ٨٠٠",correct:false}
+      ],explain:"٥٧٠٬٠٨٠٬٠٠٠ = ٥٠٠،٠٠٠،٠٠٠ + ٧٠،٠٠٠،٠٠٠ + ٨٠،٠٠٠."},
 
-      {question:"أيُّ العددين أكبر: ٢٣٤٥٦٧٨٩ أم ٢٣٥٤٦٧٨٩؟",choices:[
-        {text:"٢٣٥٤٦٧٨٩",correct:true},{text:"٢٣٤٥٦٧٨٩",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن المقارنة",correct:false}
+      {question:"أيُّ العددين أكبر: ٢٣،٤٥٦،٧٨٩ أم ٢٣،٥٤٦،٧٨٩؟",choices:[
+        {text:"٢٣،٥٤٦،٧٨٩",correct:true},{text:"٢٣،٤٥٦،٧٨٩",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن المقارنة",correct:false}
       ],explain:"نقارن الملايين: ٢٣٥… أكبر من ٢٣٤… ."},
 
-      {question:"ما الرقم في منزلة مئات الملايين في العدد ٩١٢٣٤٥٦٧٨؟",choices:[
+      {question:"ما الرقم في منزلة مئات الملايين في العدد ٩١٢،٣٤٥،٦٧٨؟",choices:[
         {text:"٩",correct:true},{text:"١",correct:false},{text:"٢",correct:false},{text:"٨",correct:false}
-      ],explain:"٩١٢٣٤٥٦٧٨ يحتوي ٩ خانات؛ خانة مئات الملايين هي الأولى من اليسار = ٩."},
+      ],explain:"٩١٢،٣٤٥،٦٧٨ يحتوي ٩ خانات؛ خانة مئات الملايين هي الأولى من اليسار = ٩."},
 
-      {question:"أي قراءة صحيحة للعدد ٤٠٠٣٢٠٠١٠؟",choices:[
+      {question:"أي قراءة صحيحة للعدد ٤٠،٠٣٢٠،٠١٠؟",choices:[
         {text:"أربعمئة مليون وثلاثمئة وعشرون ألفًا وعشرة",correct:true},
         {text:"أربعمئة ألف وثلاثمئة وعشرون مليونًا وعشرة",correct:false},
         {text:"أربعمئة مليون وثلاثون ألفًا ومئة",correct:false},
         {text:"أربعون مليونًا وثلاثمئة وعشرون ألفًا وعشرة",correct:false}
-      ],explain:"٤٠٠٣٢٠٠١٠ = ٤٠٠٬٠٠٠٬٠٠٠ + ٣٢٠٬٠٠٠ + ١٠."},
+      ],explain:"٤٠٠،٣٢٠،٠١٠ = ٤٠٠،٠٠٠،٠٠٠ + ٣٢٠،٠٠٠ + ١٠."},
 
-      {question:"ما القيمة المنزلية للصفر في منزلة مئات الألوف في العدد ٨٠٠٠٠٥٠٠٠؟",choices:[
-        {text:"٠",correct:true},{text:"٥٠٠٠٠٠",correct:false},{text:"٥٠٠٠",correct:false},{text:"٥٠٠",correct:false}
+      {question:"ما القيمة المنزلية للصفر في منزلة مئات الألوف في العدد ٨٠٠،٠٠٥،٠٠٠؟",choices:[
+        {text:"٠",correct:true},{text:"٥٠٠،٠٠٠",correct:false},{text:"٥،٠٠٠",correct:false},{text:"٥٠٠",correct:false}
       ],explain:"مئات الألوف = ٠ ⇒ لا تضيف قيمة مكانية."},
 
-      {question:"أي تمثيل تحليلي صحيح للعدد ٦٢٠٤٠١٠٠٥؟",choices:[
-        {text:"٦٠٠٠٠٠٠٠٠ + ٢٠٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ١٠٠٠ + ٥",correct:true},
-        {text:"٦٠٠٠٠٠٠٠ + ٢٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ١٠٠٠ + ٥",correct:false},
-        {text:"٦٢٠٠٠٠٠٠ + ٤٠٠٠٠٠ + ١٠٠٠ + ٥",correct:false},
-        {text:"٦٠٠٠٠٠٠٠٠ + ٢٠٠٠٠٠ + ٤٠٠٠٠٠ + ١٠٠٠ + ٥",correct:false}
-      ],explain:"٦٢٠٤٠١٠٠٥ = ٦٠٠٬٠٠٠٬٠٠٠ + ٢٠٬٠٠٠٬٠٠٠ + ٤٠٠٬٠٠٠ + ١٬٠٠٠ + ٥."},
+      {question:"أي تمثيل تحليلي صحيح للعدد ٦٢٠،٤٠١،٠٠٥؟",choices:[
+        {text:"٦٠٠،٠٠٠،٠٠٠ + ٢٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ١،٠٠٠ + ٥",correct:true},
+        {text:"٦٠،٠٠٠،٠٠٠ + ٢،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ١،٠٠٠ + ٥",correct:false},
+        {text:"٦٢،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ١،٠٠٠ + ٥",correct:false},
+        {text:"٦٠٠،٠٠٠،٠٠٠ + ٢٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ١،٠٠٠ + ٥",correct:false}
+      ],explain:"٦٢٠،٤٠١،٠٠٥ = ٦٠٠،٠٠٠،٠٠٠ + ٢٠،٠٠٠،٠٠٠ + ٤٠٠،٠٠٠ + ١،٠٠٠ + ٥."},
 
-      {question:"ما الرقم في منزلة عشرات الألوف في العدد ٩٣٢٥٦٤٧١؟",choices:[
+      {question:"ما الرقم في منزلة عشرات الألوف في العدد ٩٣،٢٥٦،٤٧١؟",choices:[
         {text:"٦",correct:true},{text:"٤",correct:false},{text:"٥",correct:false},{text:"٧",correct:false}
       ],explain:"التثلية الوسطى (الآلاف) = ٥٦٤؛ عشرات الألوف رقمها ٦."},
 
-      {question:"أيهما أصغر: ٧٠٠١٢٠٠٣٠ أم ٦٩٩٩٩٩٩٩٩؟",choices:[
-        {text:"٦٩٩٩٩٩٩٩٩",correct:true},{text:"٧٠٠١٢٠٠٣٠",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن التحديد",correct:false}
-      ],explain:"٦٩٩٬٩٩٩٬٩٩٩ < ٧٠٠٬١٢٠٬٠٣٠."}
+      {question:"أيهما أصغر: ٧٠٠،١٢٠،٠٣٠ أم ٦٩٩،٩٩٩،٩٩٩؟",choices:[
+        {text:"٦٩٩،٩٩٩،٩٩٩",correct:true},{text:"٧٠٠،١٢٠،٠٣٠",correct:false},{text:"متساويان",correct:false},{text:"لا يمكن التحديد",correct:false}
+      ],explain:"٦٩٩،٩٩٩،٩٩٩ < ٧٠٠،١٢٠،٠٣٠."}
     ];
 
     let currentQuestionIndex=0,score=0,totalAnswered=0,hasAnswered=false;
@@ -325,4 +325,5 @@
   </script>
 </body>
 </html>
+
 
